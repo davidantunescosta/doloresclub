@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +14,7 @@ html {
   width: 100vw;
   height: 100vh;
   font-size: 65,5%;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: #1f1e1f;
 }
 
@@ -22,13 +25,13 @@ html {
   justify-content: space-around;
   align-items: center;
   background-color: #1f1e1f;
-  position: fixed;
-  padding: 50px;
+  padding: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .logo {
-  width: 70px;
-  height: auto;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -53,12 +56,32 @@ html {
   text-transform: uppercase;
   font-weight: 500;
   transition: all 200ms ease-in;
+  font-family: 'Barlow', sans-serif;
 }
 
-.content .list-menu li a:hover {
-  background-color: #3333;
-  border-bottom: 4px solid solid #ffc506;
-  color: #ffc506;
+.nav-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-facebook a:hover {
+  background: #7C97C1;
+  border-radius: 20px; 
+  transition: all 500ms ease-in;
+
+}
+
+.nav-instagram a:hover {
+  background: #F285A1; 
+  border-radius: 20px; 
+  transition: all 500ms ease-in;
+}
+
+.nav-whatsapp a:hover {
+  background: #70D68E;
+  border-radius: 20px; 
+  transition: all 500ms ease-in;
 }
 
 
@@ -66,10 +89,11 @@ html {
 
 .first-section {
   background-image: linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)),url(../img/background.jpg);
+  /*background-image: url(../img/background.jpg);*/
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 20px;
+  background-position-y: 50px;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -90,6 +114,7 @@ html {
   font-size: 3rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .first-section h2 {
@@ -98,6 +123,7 @@ html {
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 3rem;
+  font-family: 'Barlow', sans-serif;
 }
 
 .btn button {
@@ -111,6 +137,7 @@ html {
   font-weight: 700;
   margin-top: 5rem;
   transition: all 400ms ease-in;
+  font-family: 'Barlow', sans-serif;
 }
 
 .btn button:hover {
@@ -124,4 +151,121 @@ html {
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+
+/*Sobre nos */
+
+.sobre-nos {
+  background-color: #1f1e1f;
+  width: 100%;
+  padding-bottom: 5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Barlow', sans-serif;
+}
+
+/*.sobre-nos img {
+  width: 400px;
+  height: 400px;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  border: 2px solid rgb(155, 155, 155);
+}*/
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentsobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentsobre h2 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.contentsobre p {
+  text-align: center;
+  font-size: 1.6rem;
+  width: 100vw;
+}
+
+/*Contato - Footer*/
+
+.contatos {
+  font-family: 'Barlow', sans-serif;
+  width: 100vw;
+  background-color: #1f1e1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.contatos h3 {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.contatos-secao {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.contatos-secao i {
+  margin-right: 1rem;
+}
+
+.contatos-secao div {
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.contatos .contatos-secao .item-instagram,
+.item-facebook,
+.item-whastapp, a {
+  color: white;
+  padding: 6px;
+}
+
+.item-facebook a:hover {
+  background: #7C97C1;
+  border-radius: 40px; 
+  transition: all 500ms ease-in;
+}
+
+.item-instagram a:hover {
+  background: #F285A1; 
+  border-radius: 40px; 
+  transition: all 500ms ease-in;
+}
+
+.item-whatsapp a:hover {
+  background: #70D68E;
+  border-radius: 40px; 
+  transition: all 500ms ease-in;
+}
+/*Footer*/
+footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  font-size: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
