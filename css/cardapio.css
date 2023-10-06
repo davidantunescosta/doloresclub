@@ -1,0 +1,82 @@
+
+.barra-fixa{
+  cursor: pointer;
+  background-color: red;
+  position: fixed;
+  border-radius: 50px;
+}
+
+.cardapio {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1e1f;
+}
+
+.cardapio h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.itens-cardapio {
+  width: 90%;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.itens-cardapio .info {
+  background-color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  font-family: 'Barlow', sans-serif;
+}
+
+.itens-cardapio .info h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.itens-cardapio .info h4 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 150px 150px;
+  margin: 0 auto;
+  margin-left: 0.8rem;
+}
+
+.itens-cardapio .info h4 span {
+  font-size: 1.6rem;
+  color: #585858;
+  margin-left: 1.5rem;
+  text-decoration: underline;
+}
+
+.itens-cardapio div {
+  background-color: #5e5252;
+  box-shadow: 0px 0px 4px 1px;
+}
+
+.itens-cardapio img {
+  width: 100%;
+  height: 250px;
+}
+
