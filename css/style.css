@@ -151,7 +151,6 @@ html {
   display: block;
   justify-content: center;
   align-items: center;
-  width: 50%;
 }
 
 /*Sobre nos */
@@ -166,14 +165,6 @@ html {
   align-items: center;
   font-family: 'Barlow', sans-serif;
 }
-
-/*.sobre-nos img {
-  width: 400px;
-  height: 400px;
-  margin-top: 10rem;
-  margin-left: 10rem;
-  border: 2px solid rgb(155, 155, 155);
-}*/
 
 .main {
   display: flex;
@@ -193,9 +184,11 @@ html {
 }
 
 .contentsobre p {
-  text-align: center;
+  text-align: justify;
   font-size: 1.6rem;
-  width: 100vw;
+  width: 60%;
+  line-height: 2.5rem;
+  text-indent: 1rem;
 }
 
 /*Contato - Footer*/

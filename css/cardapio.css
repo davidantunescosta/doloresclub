@@ -1,11 +1,38 @@
-
-.barra-fixa{
-  cursor: pointer;
-  background-color: red;
-  position: fixed;
-  border-radius: 50px;
+.cardapio-container {
+  position: sticky;
+  top: 38%;
+  z-index: 999;
 }
 
+.download-btn {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  background-color: #ffc506e7;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+}
+
+.cardapio-container .download-btn .bi {
+ color: #ffc506;
+ background-color: black;
+ border-radius: 50%;
+}
+
+.download-btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.download-btn span {
+  display: block;
+  text-align: center;
+  flex-direction: column;
+}
+
+/*Cardapio*/
 .cardapio {
   width: 100vw;
   display: flex;
@@ -24,7 +51,7 @@
 
 .itens-cardapio {
   width: 90%;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
   justify-content: center;
@@ -44,7 +71,12 @@
   font-family: 'Barlow', sans-serif;
 }
 
+.cardapio h2 {
+  font-size: 4.0rem;
+}
+
 .itens-cardapio .info h3 {
+  font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
   text-transform: uppercase;
   margin-bottom: 1rem;

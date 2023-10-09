@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dolores Club</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" href="css/cardapio.css">
+  <link rel="stylesheet" href="css/media-query.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
@@ -18,21 +20,46 @@
     <nav>
       <ul class="list-menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#sobrenos">Sobre Nós</a></li>
         <li><a href="cardapio.html">Cardápio</a></li>
 
-        <li><a href="#"><i class="bi bi-instagram"></i></i></a></li>
-        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-        <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+        <div class="nav-social">
+          <div class="nav-instagram">
+            <li><a href="#"><i class="bi bi-instagram"></i></i></a></li>
+          </div>
+
+          <div class="nav-facebook">
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          </div>
+
+          <div class="nav-whatsapp">
+            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+          </div>
+        </div>
       </ul>
     </nav>
+    <div class="menu-toggle">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
     <!--Final: Menu navegação-->
   </header>
   
-  <div class="barra-fixa">
-    <a href="cardapio.pdf" download="cardapio.pdf">Cardapio Completo</a>
-  </div>
-
+    <!--<i class="bi bi-arrow-bar-down"></i>-->
+    <div class="cardapio-container">
+      <a href="cardapio.pdf" download="cardapio.pdf" class="download-btn">
+        <span>C</span>
+        <span>a</span>
+        <span>r</span>
+        <span>d</span>
+        <span>a</span>
+        <span>p</span>
+        <span>i</span>
+        <span>o</span>
+      </a>
+    </div>
+  
   <section class="cardapio" id="cardapio">
     <h2>Chops - Cervejas</h2>
     <div class="itens-cardapio">
@@ -205,3 +232,39 @@
     </div>
   </div>
 </section>
+
+<section class="contatos" id="contatos">
+  <h3>Contatos</h3>
+  <div class="contatos-secao">
+    <div class="item-instagram">
+      <a href="">
+        <i class="bi bi-instagram"></i>
+        <span>Instagram</span>
+      </a>
+    </div>
+
+    <div class="item-facebook">
+      <a href="">
+        <i class="bi bi-facebook"></i>
+        <span>Facebook</span>
+      </a>
+    </div>
+
+    <div class="item-whatsapp">
+      <a href="">
+        <i class="bi bi-whatsapp"></i>
+        <span>Whatsapp</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h4>
+    ® 2023. RIO SCENARIUM. Todos os direitos reservados.</h4>
+    <span>Desenvolvido por David Costa</span>
+</footer>
+
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
