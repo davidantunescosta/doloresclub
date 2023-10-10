@@ -39,6 +39,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0 40px;
+  justify-content: center;
   }
 
   .content .list-menu {

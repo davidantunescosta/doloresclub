@@ -134,11 +134,18 @@ html {
   text-transform: uppercase;
   background-color: #ffc506;
   border-radius: 10px;
-  color: black;
   font-weight: 700;
   margin-top: 5rem;
   transition: all 400ms ease-in;
   font-family: 'Barlow', sans-serif;
+}
+
+.btn button a {
+  color: black;
+}
+
+.btn button a:hover {
+  color: #ffc506;
 }
 
 .btn button:hover {
