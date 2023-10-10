@@ -1,7 +1,6 @@
 @media (max-width: 1200px) {
   .main {
     display: block;
-    
   }
 
   .content {
@@ -25,17 +24,16 @@
   }
 }
 
-@media (max-width: 992px) {
-  html {
-    font-size: 100%;
-  }
-}
-
 @media (max-width: 768px) {
 
   html {
     font-size: 45%;
   }
+  
+  .cardapio-container {
+    font-size: 150%;
+  }
+
   .content {
   display: flex;
   flex-direction: row;
@@ -109,5 +107,115 @@
     transform: rotate(-45deg) translate(20px, -6px);
   }
 
-  
+  .cardapio h2 {
+    font-size: 5.5rem;
+  }
+
+  .itens-cardapio {
+    grid-template-columns: repeat(2, minmax(50%, 350px));
+  }
+
+  .itens-cardapio .info h3 {
+    font-size: 3rem;
+  }
+
+  .itens-cardapio .info h4 {
+    font-size: 2rem;
+    margin-left: 12rem;
+  }
+
+  .contatos-secao {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .contatos-secao div {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .conteudo-principal h1 {
+    width: 500px;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .conteudo-principal h2 {
+    font-size: 2.5rem;
+  }
+
+  .itens-cardapio {
+    grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+  }
+
+  .contatos-secao {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
+
+  .btn button {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .conteudo-principal h1{
+    width: 350px;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .conteudo-principal h2{
+    width: 200px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 395px) {
+  .contentsobre p {
+    width: 250px;
+    font-size: 2rem;
+  }
+
+  .itens-cardapio {
+    width: 50%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+  }
+
+  .itens-cardapio img {
+    width: 100%;
+    height: auto;
+  }
+
+  .itens-cardapio div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .itens-cardapio .info {
+    width: 100%;
+    height: 150px;
+    display: block;
+  }
+
+  .itens-cardapio .info h3 {
+    text-align: center;
+  }
+
+  .itens-cardapio .info h4 {
+    grid-template-columns: 93px 150px;
+  }
 }

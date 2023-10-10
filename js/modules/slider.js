@@ -1,4 +1,4 @@
-export default function initSlider() {
+
   var radio = document.querySelector('.manual-btn')
   var cont = 1
   
@@ -16,5 +16,5 @@ export default function initSlider() {
   
   document.getElementById('radio' +cont).checked = true
   }
-}
+
 
