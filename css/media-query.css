@@ -27,7 +27,7 @@
 @media (max-width: 768px) {
 
   html {
-    font-size: 45%;
+    font-size: 80%;
   }
   
   .cardapio-container {
@@ -44,6 +44,17 @@
 
   .content .list-menu {
     display: none;
+  }
+
+  .sobre-nos h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+  }
+
+  .sobre-nos p {
+    margin-bottom: 3rem;
+    width: 80%;
   }
 
   .one,
