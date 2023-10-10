@@ -1,9 +1,9 @@
 section.slider {
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
   height: auto;
   padding: 0 !important;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .slider-content {
@@ -26,13 +26,13 @@ section.slider {
 }
 
 .slide-box img {
-  width: 100%;;
+  width: 100%;
 }
 
 .nav-manual, .nav-auto {
   position: absolute;
-  width: 52%;
-  margin-top: 33%;
+  width: 85%;
+  margin-top: 53%;
   display: flex;
   justify-content: center;
 }

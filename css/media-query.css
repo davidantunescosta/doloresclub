@@ -20,7 +20,7 @@
   }
 
   .nav-auto, .nav-manual {
-    margin-top: 48%;
+    margin-top: 78%;
   }
 }
 
@@ -44,12 +44,6 @@
 
   .content .list-menu {
     display: none;
-  }
-
-  .sobre-nos h3 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    text-decoration: underline;
   }
 
   .sobre-nos p {
@@ -151,19 +145,39 @@
   .conteudo-principal h1 {
     width: 500px;
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .conteudo-principal h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    text-align: justify;
   }
+
+  section.slider {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow-x: hidden;
+  }
+
+  .nav-auto, .nav-manual {
+    margin-top: 96%;
+    margin-left: 10%;
+  }
+
 
   .itens-cardapio {
     grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
   }
 
+  .contatos h3 {
+    font-size: 3rem;
+  }
+
   .contatos-secao {
     width: 300px;
+    font-size: 1.5rem;
   }
 }
 
