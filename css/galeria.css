@@ -1,8 +1,8 @@
 .galeria-container {
   margin-top: 80px;
   margin-bottom: 80px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
   justify-content: space-evenly;
   gap: 2vw;
   padding: 0 2vw;
@@ -14,7 +14,7 @@
   border: 5px solid #fff;
   box-shadow: 5px 5px 5px #d6a504a2;
   flex-grow: 1;
-  transition: .5s linear;
+  transition: .8s linear;
 }
 
 .galeria-item:hover {

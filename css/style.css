@@ -191,15 +191,14 @@ html {
 }
 
 .contentsobre p {
-  text-align: justify;
-  font-size: 1.6rem;
-  width: 60%;
+  width: 80%;
+  height: 100%;
+  text-align: left;
   line-height: 2.5rem;
-  text-indent: 1rem;
+  font-size: 2rem;
 }
 
 /*Contato - Footer*/
-
 .contatos {
   font-family: 'Barlow', sans-serif;
   width: 100vw;
