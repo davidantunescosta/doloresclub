@@ -27,11 +27,12 @@ section.slider {
 
 .slide-box img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .nav-manual, .nav-auto {
   position: absolute;
-  width: 85%;
+  width: 82%;
   margin-top: 53%;
   display: flex;
   justify-content: center;
