@@ -6,10 +6,11 @@
 
 .download-btn {
   display: inline-block;
+  font-size: 1rem;
   color: black;
   font-weight: bold;
   background-color: #ffc506e7;
-  padding: 10px 15px;
+  padding: 10px 10px;
   border-radius: 5px;
   transition: background-color 0.3s;
   text-transform: uppercase;
