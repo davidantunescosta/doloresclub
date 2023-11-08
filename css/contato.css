@@ -1,0 +1,31 @@
+.contact-section {
+  background-image: linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)),url(../img/background-contact.jpg);
+  /*background-image: url(../img/background.jpg);*/
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 20px;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section h1 {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.contact-section h2 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-family: 'Barlow', sans-serif;
+}

@@ -44,7 +44,7 @@ html {
 }
 
 .content .list-menu {
-  width: 600px;
+  width: 650px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,7 +95,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 20px;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
