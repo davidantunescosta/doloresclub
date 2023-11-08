@@ -16,7 +16,7 @@ html {
   height: 100vh;
   font-size: 65,5%;
   overflow-x: hidden;
-  background-color: #1f1e1f;
+  background-color: #171718;
 }
 
 .content {
@@ -25,8 +25,8 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1f1e1f;
-  padding: 40px;
+  background-color: black;
+  padding: 50px;
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -39,8 +39,8 @@ html {
 }
 
 .logo img {
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 100px;
 }
 
 .content .list-menu {
@@ -111,7 +111,7 @@ html {
 }
 
 .first-section h1 {
-  color: #ffc506;
+  color: white;
   font-size: 3rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -132,7 +132,7 @@ html {
   height: 60px;
   cursor: pointer;
   text-transform: uppercase;
-  background-color: #ffc506;
+  background-color: #ff3616;
   border-radius: 10px;
   font-weight: 700;
   margin-top: 5rem;
@@ -141,17 +141,17 @@ html {
 }
 
 .btn button a {
-  color: black;
+  color: white;
+  font-weight: bold;
 }
 
 .btn button a:hover {
-  color: #ffc506;
+  color: #ff3616;
 }
 
 .btn button:hover {
-  border: 1px solid #ffc506;
+  border: 1px solid #ff3616;
   background-color: transparent;
-  color: #ffc506;
 }
 
 .btn {
@@ -186,7 +186,7 @@ html {
 }
 
 .contentsobre h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
 }
 
@@ -198,8 +198,8 @@ html {
   font-size: 2rem;
 }
 
-/*Contato - Footer*/
-.contatos {
+/*Conheça Grupo - Footer*/
+/*.contatos {
   font-family: 'Barlow', sans-serif;
   width: 100vw;
   background-color: #1f1e1f;
@@ -256,13 +256,84 @@ html {
   background: #70D68E;
   border-radius: 40px; 
   transition: all 500ms ease-in;
+}*/
+
+/*LOGOS DO GRUPO SCENARIUM*/
+.container-group {
+  background-color: black;
 }
+.container-group h3 {
+  color: white;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.container-group p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .card-item {
+  background-color: #7f0000;
+  margin: 20px;
+  border-radius: 14px;
+  text-align: center;
+  width: 400px;
+  transition: 0.3s;
+  line-height: 1.2;
+}
+
+.container .card-item:hover {
+  margin-top: -2px;
+  border: 1px solid #ff3616;
+  background-color: transparent;
+}
+
+.container .card-item img {
+  border-radius: 10px;
+  width: 120px;
+  height: 80px;
+  display: block;
+  margin: 10px auto;
+}
+
+.container .card-item .nome-user {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: 0.3;
+}
+
+.container .card-item .depoimento-user {
+  font-size: 15px;
+  padding: 0 15px;
+  transition: 0.3s;
+  text-align: justify;
+}
+
+.container .card-item button {
+  cursor: pointer;
+  font-size: .9rem;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 20px;
+  padding: 15px;
+}
+
 /*Footer*/
 footer {
   height: 50px;
   background-color: black;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-size: flex;
   display: flex;
   align-items: center;
