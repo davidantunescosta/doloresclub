@@ -154,15 +154,17 @@
     margin: 1rem;
   }
 
-  .container .contact-info {
-    flex-direction: column-reverse;
+  .information div  {
+    flex-wrap: wrap;
   }
 
-  .contact-info {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
+  .contact .container {
+    flex-direction: column-reverse;
+   }
+
+  .contact-info .rigth-side,
+  .contact-info .left-side {
+    width: 100%;
   }
 
 }
@@ -211,17 +213,21 @@
     font-size: 1.5rem;
   }
 
-  .container .contact-info {
-    flex-direction: column;
+  body {
+    background-color: red;
   }
 
-  .contact-info .rigth-side,
-  .contact-info .left-side {
-    width: 100%;
+  .contact .container .contact-info{
+    flex-wrap: wrap;
   }
+
 }
 
 @media (max-width: 500px) {
+  body {
+    background-color: green;
+  }
+  
   .btn {
     flex-direction: column;
     justify-content: center;

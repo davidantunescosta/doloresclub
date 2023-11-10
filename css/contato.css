@@ -30,25 +30,23 @@
   font-family: 'Barlow', sans-serif;
 }
 
-.contact {
-  margin-bottom: 50px;
-}
-
+/*CONTATO FORM e ENDEREÇO*/
 .contact-info {
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin: 50px;
 }
 
 .contact-info .left-side {
-  width: 50%;
-  padding: 30px;
+  width: 50%;;
+}
+
+.contact-info .left-side .information {
   background-color: #7f0000;
-  box-shadow: 2px 2px 5px white;
-  color: white;
+  display: block;
+  padding: 30px;
   border-radius: 14px;
-  margin-right: 50px;
-  height: fit-content;/*A altura vai ser baseado em seu conteudo*/
+  height: fit-content; /*Altura vai ser baseado no seu conteudo*/
 }
 
 .contact-info .left-side div {
@@ -57,17 +55,19 @@
   margin-bottom: 15px;
 }
 
-.contact-info .left-side div i {
+.contact-info .left-side i {
   font-size: 24px;
   margin-right: 20px;
+  color: white;
 }
 
 .contact-info .left-side p {
   font-size: 17px;
+  color: white;
 }
 
 .contact-info .rigth-side {
-  width: 50%;
+  width: 30%;
 }
 
 .contact-info .rigth-side input {
@@ -78,23 +78,18 @@
   padding: 15px;
   border-radius: 9px;
   transition: 0.3s;
-  border: 1px solid black;
+  border: 1px solid red;
   color: #212121;
   font-weight: lighter;
 }
 
-.contact-info .rigth-side input:focus,
-.contact-info .rigth-side textarea:focus {
-  border-color: #7f0000;
-}
-
 .contact-info .rigth-side textarea {
-  border: 2px solid #7f0000;
+  border: 1px solid #f1f1f1;
   color: #212121;
   border-radius: 9px;
   margin-bottom: 10px;
   padding: 15px;
-  width: 70%;
+  width: 100%;
   transition: 0.3s;
   resize: none; /*Tira a opção da caixa de mensagem*/
 }
@@ -118,5 +113,6 @@
  iframe{
   display: block;
   margin: 0 auto;
-  margin-top: 50px;
+  width: 100%;
+  border-radius: 14px;
 }
