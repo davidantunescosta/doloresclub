@@ -21,6 +21,15 @@
   .nav-auto, .nav-manual {
     margin-top: 78%;
   }
+
+  .contact-info form {
+    width: 100%;
+  }
+
+  .contact-info .rigth-side,
+  .contact-info .left-side {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -144,6 +153,18 @@
   .contatos-secao div {
     margin: 1rem;
   }
+
+  .container .contact-info {
+    flex-direction: column-reverse;
+  }
+
+  .contact-info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
+
 }
 
 @media (max-width: 652px) {
@@ -189,6 +210,15 @@
     width: 300px;
     font-size: 1.5rem;
   }
+
+  .container .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-info .rigth-side,
+  .contact-info .left-side {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -216,6 +246,11 @@
     text-align: center;
     text-transform: capitalize;
     line-height: 2.5rem;
+  }
+
+  .contact-info .rigth-side,
+  .contact-info .left-side {
+    width: 100%;
   }
 }
 
@@ -267,5 +302,10 @@
     display: block;
     flex-direction: column;
     text-align: center;
+  }
+
+  .contact-info .rigth-side,
+  .contact-info .left-side {
+    width: 100%;
   }
 }
